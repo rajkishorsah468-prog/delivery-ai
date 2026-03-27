@@ -38,3 +38,7 @@ plt.xlabel("Episodes")
 plt.ylabel("Reward")
 plt.savefig("output.png")
 print("Graph saved as output.png")
+
+import time
+while True:
+    time.sleep(100)
